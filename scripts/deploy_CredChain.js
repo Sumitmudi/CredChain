@@ -4,10 +4,10 @@ async function main() {
 
   const balance = await deployer.getBalance();
   console.log("Account balance:", balance.toString());
-
+  const userContractAddress = "0x6D5F904A40Ac6fDb639e48a3ef8643Ae022B0797";
   // Deploy the contract
   const NewContract1 = await ethers.getContractFactory("CredChain");
-  const contract1 = await NewContract1.deploy(); // No arguments passed
+  const contract1 = await NewContract1.deploy(userContractAddress);
   await contract1.deployed();
 
   console.log("NewContract1 deployed to:", contract1.address);

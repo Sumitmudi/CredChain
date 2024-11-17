@@ -12,4 +12,7 @@ contract User {
         require(bytes(_userRole).length > 0, "User role cannot be empty");
         profiles[msg.sender]=UserProfile(_userName,_userRole);
     }
+    function getProfile(address _user) public view returns(UserProfile memory){
+        return profiles[_user];
+    }
 }
