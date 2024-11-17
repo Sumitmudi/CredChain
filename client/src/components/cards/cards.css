@@ -1,0 +1,15 @@
+img {
+  height: 150px;
+}
+#card {
+  height: 220px;
+  width: 220px;
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.879);
+}
+section button {
+  margin-top: 10px;
+}

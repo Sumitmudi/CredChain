@@ -1,0 +1,10 @@
+#wallet-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#wallet-card p {
+  margin-bottom: 20px;
+  margin-top: 8px;
+}

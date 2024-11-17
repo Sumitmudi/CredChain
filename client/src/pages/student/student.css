@@ -1,0 +1,31 @@
+.connected-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 86vh;
+  text-align: center;
+}
+.certificateContainer {
+  width: auto;
+  height: auto;
+  border-radius: 15px;
+  padding-top: 30px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+table {
+  width: auto;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+  text-align: center;
+  vertical-align: middle;
+}
+th {
+  background-color: #f4f4f4;
+}

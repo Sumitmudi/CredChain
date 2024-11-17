@@ -1,0 +1,27 @@
+h2 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 9px;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+p {
+  font-size: 19px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  margin-right: 300px;
+  margin-left: 300px;
+  color: #555;
+}
+#role-cards {
+  display: flex;
+  gap: 240px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 69.8vh;
+  background-color: white;
+}
